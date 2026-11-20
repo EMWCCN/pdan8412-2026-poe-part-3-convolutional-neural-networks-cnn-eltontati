@@ -1,49 +1,25 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-.Python
-build/
-dist/
-.eggs/
-*.egg-info/
-wheels/
-
-# Virtual environments
 .venv/
 venv/
-env/
-ENV/
 
 # Jupyter
 .ipynb_checkpoints/
-.profile/
-.jupyter/
 
-# Dataset files (download separately; do not commit)
+# Ignore downloaded raw dataset
 data/raw/
-data/processed/
 
-# Model checkpoints
-models/
-*.h5
-*.hdf5
-*.keras
-*.ckpt
-*.pb
+# Ignore generated model files, but keep the folder
+models/*
+!models/.gitkeep
 
-# Generated outputs and figures
-outputs/
-figures/
 
-# Logs and temporary files
-*.log
-logs/
-tmp/
-temp/
-.DS_Store
-Thumbs.db
 
-# IDE/editor settings
+# IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
