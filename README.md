@@ -1,6 +1,5 @@
 PDAN8412 – Convolutional Neural Networks
-This project investigates multi-class pet-breed image classification using the Oxford-IIIT Pet Dataset. It covers exploratory data analysis, image preprocessing, a custom convolutional neural network (CNN), transfer learning with MobileNetV2, and model evaluation across 37 cat and dog breeds.
-Project structure
+Elton Tati - ST10158190
 PDAN8412_CNN_POE/
 ├── data/
 │   ├── raw/
