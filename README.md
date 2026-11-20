@@ -1,19 +1,6 @@
 PDAN8412 – Convolutional Neural Networks
 Elton Tati - ST10158190
-PDAN8412_CNN_POE/
-├── data/
-│   ├── raw/
-│   │   ├── images/          # Dataset images
-│   │   └── annotations/     # Dataset annotations and official split files
-│   
-├── models/                  # Saved model checkpoints
-├── notebooks/
-│   └── PDAN8412_CNN_Analysis.ipynb
-├── outputs/                 # Exported evaluation outputs
-├── figures/                 # Generated charts and visualisations
-├── .gitignore
-├── README.md
-└── requirements.txt
+
 Dataset
 The project uses the Oxford-IIIT Pet Dataset, containing images from 37 cat and dog breeds.
 - Official dataset page: https://www.robots.ox.ac.uk/~vgg/data/pets/
