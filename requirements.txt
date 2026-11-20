@@ -1,0 +1,14 @@
+# Data analysis
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+
+# Deep learning and image processing
+tensorflow
+Pillow
+
+# Jupyter environment
+jupyter
+ipykernel
